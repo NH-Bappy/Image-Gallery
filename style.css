@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 10px auto; */
+    margin: 20vh auto;
 }
 .gallery{
     width: 900px;

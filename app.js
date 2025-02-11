@@ -1,6 +1,7 @@
 let scrollContainer = document.querySelector(".gallery");
 let backBtn = document.querySelector("#backBtn");
 let nextBtn = document.querySelector("#nextBtn");
+let img =document.querySelectorAll("img")
 
 
 
@@ -12,11 +13,13 @@ scrollContainer.addEventListener("wheel" ,(e) =>{
 
 nextBtn.addEventListener("click",()=>{
     scrollContainer.style.scrollBehavior = "smooth"
-    scrollContainer.scrollLeft += 900;
+    scrollContainer.scrollLeft += 300;
 });
+
+
 
 
 backBtn.addEventListener("click",()=>{
     scrollContainer.style.scrollBehavior = "smooth"
-    scrollContainer.scrollLeft -= 900;
+    scrollContainer.scrollLeft -= 300;
 });
